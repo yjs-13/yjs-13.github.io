@@ -1170,7 +1170,6 @@ li.menu-item.menu-item-search.right-list {
 }
 .custom-hero-contain {
   margin: 0 auto;
-  padding: 80px 0;
   width: 100%;
   height: 500px;
   display: flex;
@@ -1179,7 +1178,7 @@ li.menu-item.menu-item-search.right-list {
 }
 .custom-hero-left {
   width: 100%;
-  width: 800px;
+  height: 500px;
 }
 .custom-hero-left h1 {
   font-size: 50px;
@@ -1212,11 +1211,14 @@ li.menu-item.menu-item-search.right-list {
 }
 .custom-hero-right {
   width: 100%;
+  height: 500px;
 }
-.custom-hero-right height 500px {
+.custom-hero-right img {
   margin: 0 auto;
+  width: 339px;
+  height: 480px;
+  display: block;
 }
-.custom-hero-right img,
 .custom-hero .btn-primary {
   background-color: #3c5ecc;
   color: #fff;
@@ -1228,7 +1230,7 @@ li.menu-item.menu-item-search.right-list {
 .custom-grid {
   width: 100%;
   height: 500px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
