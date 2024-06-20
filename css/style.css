@@ -1261,7 +1261,6 @@ li.menu-item.menu-item-search.right-list {
   .custom-hero-left,
   .custom-hero-right {
     width: 100%;
-    padding: 0 15px; /* 统一减少左右内边距 */
     text-align: center; /* 文字居中 */
   }
   .custom-hero-left h1 {
