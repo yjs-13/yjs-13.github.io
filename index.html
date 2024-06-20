@@ -203,9 +203,9 @@
   </div>
 </header>
 
-    <!-- <main class="app-body">
+     <main class="app-body">
   
-    <article class="article-card">
+    <!-- <article class="article-card">
       <h2 class="article-head">
         <a href="/2024/06/19/hello-world/">Hello World</a>
       </h2>
@@ -217,12 +217,68 @@
         
       </div>
       <a class="more" href="/2024/06/19/hello-world/">Read more</a>
-    </article>
+    </article> 
+
+    div class="custom-hero">-->
+
+    <div class="custom-hero">
+      <div class="custom-hero-contain">
+        <div class="custom-hero-left">
+          <h1>所知甚少，唯善学；</h1>
+          <p>Every Step Counts；</p>
+          <span>There is such a lot of things on the world to see</span>
+          <div class="btn">
+            <a class="btn-primary" href="/categories/">Let's go</a>
+            <a class="btn-secondary" href="/about/">About me</a>
+          </div>
+        </div>
+    
+        <div class="custom-hero-right">
+          <img src="/css/images/pg.png" alt="">
+        </div>
+      </div>
+    
+      <div class="custom-grid">
+        
+        
+          <a class="grid-item">
+            <img src="/css/images/logo.png" alt="Vue3">
+            <p>Vue3</p>
+          </a>
+        
+          <a class="grid-item">
+            <img src="path/to/vue3-logo.png" alt="Vue3">
+            <p>Vue3</p>
+          </a>
+        
+          <a class="grid-item">
+            <img src="path/to/vue3-logo.png" alt="Vue3">
+            <p>Vue3</p>
+          </a>
+        
+          <a class="grid-item">
+            <img src="path/to/vue3-logo.png" alt="Vue3">
+            <p>Vue3</p>
+          </a>
+        
+          <a class="grid-item">
+            <img src="path/to/vue3-logo.png" alt="Vue3">
+            <p>Vue3</p>
+          </a>
+        
+          <a class="grid-item">
+            <img src="path/to/vue3-logo.png" alt="Vue3">
+            <p>Vue3</p>
+          </a>
+        
+      </div>
+    </div> 
+ 
   
 
-  
-</main> -->
-
+ <!--  -->
+</main>
+<!-- 
 <div class="custom-hero">
   <div class="custom-hero-contain">
     <div class="custom-hero-left">
@@ -234,7 +290,7 @@
         <a class=" btn-secondary" href="/about/">About me</a>
       </div>
     </div>
-    <!-- 图片 -->
+
     <div class="custom-hero-right">
       <img src="/css/images/pg.png" alt=""  >
     </div>
@@ -265,119 +321,60 @@
       <img src="path/to/vue3-logo.png" alt="Vue3">
       <p>Vue3</p>
     </a>
-</div>
+</div> -->
+<!-- <div class="custom-hero">
+  <div class="custom-hero-contain">
+    <div class="custom-hero-left">
+      <h1>所知甚少，唯善学；</h1>
+      <p>Every Step Counts；</p>
+      <span>There is such a lot of things on the world to see</span>
+      <div class="btn">
+        <a class="btn-primary" href="/categories/">Let's go</a>
+        <a class="btn-secondary" href="/about/">About me</a>
+      </div>
+    </div>
 
+    <div class="custom-hero-right">
+      <img src="/css/images/pg.png" alt="">
+    </div>
+  </div>
 
-<style>
-  .custom-hero {
-    padding: 60px 0;
-    background-color: #fff;
-    color: #333;
-    width: 100%;
-    height: 100vh;
-
-  }
-
-  .custom-hero-contain {
-    padding: 50px 0;
-    width: 60%;
-    height: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-
-
-  }
-
-  .custom-hero-left {
-    width: 60%;
-    height: 500px;
-  }
-
-  .custom-hero-left h1 {
-    font-size: 50px;
-    background: linear-gradient(to right, #61eaeb, #6f8cf9);
-    color: transparent;
-    background-clip: text;
-    margin: 0;
-  }
-
-  .custom-hero-left p {
-    font-size: 55px;
-  }
-
-  .custom-hero-left span {
-    font-size: 30px;
-    color: #67676c;
-  }
-  .custom-hero-left .btn{
-    margin-top: 100px;
-    display: flex;
-  }
-  .custom-hero-left .btn a{
-    display: block;
-    margin-right: 10px;
-    width: 180px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    font-weight: 700;
-    border: none;
-    border-radius: 5px;
-
-  }
-  .custom-hero-right img{
-    width: 100%;
-    height: 500px;
-    display: block;
-  }
-  .custom-hero .btn-primary {
-    background-color: #3c5ecc;
-    color: #fff;
-  }
-
-  .custom-hero .btn-secondary {
-    background-color: #e5e5ea;
-    color: #000;
-  }
-
-  .custom-grid {
-    width: 60%;
-    height: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;  /* 允许换行  */
-    justify-content: space-between;
-  }
-
-  .grid-item {
-    display: block;
-    width: 320px;
-    height: 145px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加动画效果 */
+  <div class="custom-grid">
     
-  }
-  .grid-item:nth-child(4) {
-    flex-wrap: wrap; 
-}
-/* 悬停时的动画效果 */
-.grid-item:hover {
-  transform: translateY(-10px); /* 项目向上移动 */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* 阴影增强 */
-}
-  .grid-item img {
-    max-width: 80px;
-    margin-bottom: 10px;
-  } 
+    
+      <a class="grid-item">
+        <img src="/css/images/logo.png" alt="Vue3">
+        <p>Vue3</p>
+      </a>
+    
+      <a class="grid-item">
+        <img src="path/to/vue3-logo.png" alt="Vue3">
+        <p>Vue3</p>
+      </a>
+    
+      <a class="grid-item">
+        <img src="path/to/vue3-logo.png" alt="Vue3">
+        <p>Vue3</p>
+      </a>
+    
+      <a class="grid-item">
+        <img src="path/to/vue3-logo.png" alt="Vue3">
+        <p>Vue3</p>
+      </a>
+    
+      <a class="grid-item">
+        <img src="path/to/vue3-logo.png" alt="Vue3">
+        <p>Vue3</p>
+      </a>
+    
+      <a class="grid-item">
+        <img src="path/to/vue3-logo.png" alt="Vue3">
+        <p>Vue3</p>
+      </a>
+    
+  </div>
+</div> -->
 
-</style>
     <div class="scroll-top">
   <span class="arrow-icon"></span>
 </div>
